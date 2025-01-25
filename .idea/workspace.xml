@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd39abc3-7a31-499e-9fb3-6dc65c0f8c7c" name="Changes" comment="Application skeleton.">
+    <list default="true" id="dd39abc3-7a31-499e-9fb3-6dc65c0f8c7c" name="Changes" comment="Added space for the main method in main class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +22,28 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ZarkoMilojevic&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ZarkoMilojevic/WeatherApp.git&quot;,
+    &quot;accountId&quot;: &quot;08964217-df0a-4786-b139-9117fe149b69&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2s3G7b0rmqYTlu6j22T8XKHcw0i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,8 +55,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "Python.weather_api.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737676679176</updated>
-      <workItem from="1737676685499" duration="2269000" />
+      <workItem from="1737676685499" duration="2643000" />
+      <workItem from="1737828335718" duration="7922000" />
     </task>
     <task id="LOCAL-00001" summary="Application skeleton.">
       <option name="closed" value="true" />
@@ -81,7 +101,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737679099123</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Connecting with GitHub">
+      <option name="closed" value="true" />
+      <created>1737679674829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737679674829</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added space for the main method in main class.">
+      <option name="closed" value="true" />
+      <created>1737679859139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737679859139</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,9 +125,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Application skeleton." />
-    <option name="LAST_COMMIT_MESSAGE" value="Application skeleton." />
+    <MESSAGE value="Connecting with GitHub" />
+    <MESSAGE value="Added space for the main method in main class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added space for the main method in main class." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WeatherApp$main.coverage" NAME="main Coverage Results" MODIFIED="1737679263565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WeatherApp$main.coverage" NAME="main Coverage Results" MODIFIED="1737836469659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WeatherApp$weather_api.coverage" NAME="weather_api Coverage Results" MODIFIED="1737834397097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 -- -----------------------------------------------------
--- Student name: Zarko Milojevic
+-- Applicant name: Zarko Milojevic
 -- Email: zarkomilojevic@yahoo.com
 -- Company: PM Accelerator
 -- Technical Assessment
@@ -16,7 +16,7 @@
 
 -- -----------------------------------------------------
 -- Student name: Zarko Milojevic
--- Create Table `cst8333`.`fuel_consumption_ratings`
+-- Create Table `WeatherData`.`weatherapp`
 -- -----------------------------------------------------
 -- USE `weatherapp`;
 -- DROP TABLE IF EXISTS `WeatherData`;
@@ -37,4 +37,5 @@ CREATE TABLE WeatherData (
 );
 */
 -- SELECT * FROM WeatherData;
+
 
