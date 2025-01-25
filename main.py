@@ -135,6 +135,11 @@ def main_menu():
     """
     while True:
         print("\n=== Weather Application ===")
+        # Icon or Info Button with short description
+        print("\n[INFO ICON] - Get weather data, manage records, or export your data to different formats.")
+        print("\n=== Created by Zarko Milojevic ===")
+        print("\n=== For PM Accelerator - A platform to transparently showcase PM skills to ease the application / hiring process for PMs and companies.===")
+
         print("1. Get Weather")
         print("2. Edit existing data")
         print("3. Export Data")
